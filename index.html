@@ -335,20 +335,29 @@ select:focus, input[type="file"]:focus, input[type="radio"]:focus, input[type="c
 <script type="text/javascript" src="http://twitter.github.com/bootstrap/assets/js/bootstrap.js"></script>
   </head>
 <body>
-  
+  <div class="modal  in" style="left:auto;right:3px;width:300px;opacity:0.8">
+<div class="modal-header">
+<h3 id="myModalLabel">批量评价</h3>
+</div>
+<div class="modal-body">
 <form id="bulkrate">
   <fieldset>
-    <legend>批量评价</legend>
     <textarea id="rate-msg" placeholder="Type something…"></textarea>
     <span class="help-block"></span>
     <label class="checkbox">
       <input type="checkbox" checked="true"> 好评
     </label>
-    <button type="submit" class="btn btn-primary">提交</button>
-    
   </fieldset>
 </form>
-<a href="#settings" class="btn" data-toggle="modal">设置</a>
+</div>
+<div class="modal-footer">
+ <a  class="btn btn-primary">提交</a>
+    <a href="#settings" class="btn" data-toggle="modal">设置</a>
+</div>
+</div>
+
+
+
 <div id="settings" class="modal hide fade" tabindex="-1" role="dialog" >
 <div class="modal-header">
 <h3 id="myModalLabel">设置</h3>
@@ -363,6 +372,9 @@ select:focus, input[type="file"]:focus, input[type="radio"]:focus, input[type="c
 </div>
 
 <script type="text/javascript">
+
+//$('<div></div>').html('<div class="modal  in"> <div class="modal-header"> <h3 id="myModalLabel">批量评价</h3> </div> <div class="modal-body"> <form id="bulkrate">   <fieldset>     <textarea id="rate-msg" placeholder="Type something…"></textarea>     <span class="help-block"></span>     <label class="checkbox">       <input checked="true" type="checkbox"> 好评     </label>   </fieldset> </form> </div> <div class="modal-footer">  <a class="btn btn-primary">提交</a>     <a href="#settings" class="btn" data-toggle="modal">设置</a> </div> </div>    <div id="settings" class="modal hide fade" tabindex="-1" role="dialog"> <div class="modal-header"> <h3 id="myModalLabel">设置</h3> </div> <div class="modal-body"> <textarea id="default-msg" placeholder="默认评价"></textarea> </div> <div class="modal-footer"> <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button> <button id="save-default-msg" class="btn btn-primary" data-dismiss="modal" aria-hidden="true">保存</button> </div> </div> ').appendTo($('body'));
+
   $rateMsg = $('#rate-msg');
   $defaultMsg = $("#default-msg");
   if (msg = localStorage.getItem('defaultMsg')){
