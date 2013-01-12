@@ -18,6 +18,18 @@
 
 妈妈我也会。。。So Easy
 
-![批量评价](/imgs/tbbr.png)
+![批量评价](https://github.com/geogeo/TBBR/raw/master/imgs/tbbr.png)
 
-![设置](/imgs/settings.png)
+![设置](https://github.com/geogeo/TBBR/raw/master/imgs/settings.png)
+
+安装
+=======
+
+firefox用户请安装[GreaseMonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)插件
+Chrome用户请安装[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
+
+然后来这里点右上角的Install按钮<http://userscripts.org/scripts/show/155898>
+
+IE用户勿扰
+
+
