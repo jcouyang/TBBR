@@ -30,6 +30,8 @@ Chrome用户请安装[Tampermonkey](https://chrome.google.com/webstore/detail/ta
 
 然后来这里点右上角的Install按钮<http://userscripts.org/scripts/show/155898>
 
+Safari这么高端的用户请自己研究怎么装GreaseMonkey<http://www.simplehelp.net/2007/11/14/how-to-run-greasemonkey-scripts-in-safari/>
+
 IE用户勿扰
 
 
