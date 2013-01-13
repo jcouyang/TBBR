@@ -235,15 +235,15 @@ button.btn::-moz-focus-inner, input.btn[type="submit"]::-moz-focus-inner {
 .modal-footer .btn-block + .btn-block {
     margin-left: 0;
 }
-   form {
+ .tbbr form {
     margin: 0 0 20px;
 }
-fieldset {
+.tbbr fieldset {
     border: 0 none;
     margin: 0;
     padding: 0;
 }
-legend {
+.tbbr legend {
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
@@ -260,23 +260,23 @@ legend {
     padding: 0;
     width: 100%;
 }
-legend small {
+.tbbr legend small {
     color: #999999;
     font-size: 15px;
 }
-label, input, button, select, textarea {
+.tbbr label,.tbbr input,.tbbr button,.tbbr select, .tbbr textarea {
     font-size: 14px;
     font-weight: normal;
     line-height: 20px;
 }
-input, button, select, textarea {
+.tbbr input, .tbbr button, .tbbr select, .tbbr textarea {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-label {
+.tbbr label {
     display: block;
     margin-bottom: 5px;
 }
-select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+.tbbr select,.tbbr textarea,.tbbr input[type="text"] {
     border-radius: 4px 4px 4px 4px;
     color: #555555;
     display: inline-block;
@@ -287,43 +287,42 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
     padding: 4px 6px;
     vertical-align: middle;
 }
-input, textarea, .uneditable-input {
+.tbbr input,.tbbr textarea, .uneditable-input {
     width: 206px;
 }
-textarea {
+.tbbr textarea {
     height: auto;
 }
-textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+.tbbr textarea,.tbbr input[type="text"] {
     background-color: #FFFFFF;
     border: 1px solid #CCCCCC;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
     transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
 }
-textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+.tbbr textarea:focus, .tbbr input[type="text"]:focus{
     border-color: rgba(82, 168, 236, 0.8);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
     outline: 0 none;
 }
-input[type="radio"], input[type="checkbox"] {
+.tbbr input[type="radio"],.tbbr input[type="checkbox"] {
     line-height: normal;
     margin: 4px 0 0;
 }
-input[type="file"], input[type="image"], input[type="submit"], input[type="reset"], input[type="button"], input[type="radio"], input[type="checkbox"] {
+.tbbr input[type="button"],.tbbr input[type="radio"],.tbbr input[type="checkbox"] {
     width: auto;
 }
-select, input[type="file"] {
+.tbbr select{
     height: 30px;
     line-height: 30px;
-}
-select {
+
     background-color: #FFFFFF;
     border: 1px solid #CCCCCC;
     width: 220px;
 }
-select[multiple], select[size] {
+.tbbr select[multiple], .tbbr select[size] {
     height: auto;
 }
-select:focus, input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus {
+.tbbr select:focus, .tbbr input[type="radio"]:focus, .tbbr input[type="checkbox"]:focus {
     outline: thin dotted #333333;
     outline-offset: -2px;
 }
